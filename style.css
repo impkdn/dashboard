@@ -7,6 +7,9 @@
 body{
     /* height: 100vh; */
 }
+a{
+    text-decoration: none;
+}
 button{
     border: none;
     outline: none;
@@ -17,6 +20,10 @@ button:hover{
     
 }
 
+.mg-bottom{
+ margin-bottom: 36px !important;
+}
+
 .clear-fix{
     clear: both;
 }
@@ -25,21 +32,22 @@ button:hover{
 .container{
     display: grid;
     grid-template-columns: 302px auto 88px;
-    height: 100vh;
+    grid-template-rows: 88px auto;
+    /* height: 100vh; */
+    background-color: #F7F8FA;
 }
 
 /* left bar styles */
 
 .left-side-bar{
- border: 1px solid black;
+ /* border: 1px solid black; */
  height: 100%;
+ grid-row: 1/4;
  
 }
 
-.dashboard-header{
-   
-}
-.dashboard-header h2{
+
+.dashboard-side-bar h2{
     float: left;
     margin: 30px 0px 30px 32px;
     font-weight: 700;
@@ -47,17 +55,22 @@ button:hover{
     line-height: 28px;
     color: #1F2633;
 }
-.dashboard-header button{
+.dashboard-side-bar button{
     margin: 38px 0px 0px 110.2px;
     background-color: transparent;
     border: none;
     outline: none;
 }
 
+
+
 /* dashboard content container */
+.dashboard-content{
+    border-top: 1px solid #E9EBF0;
+}
 .user-name-img{
     float: left;
-    margin: 29px 0px 29px 29px;
+    margin: 29px 0px 29px 0px;
 }
 .user-name-img img{
     float: left;
@@ -80,10 +93,26 @@ button:hover{
     line-height: 16px;
     color: #B8BFCC;
 }
+.user-info {
+    margin-left: 29px;
+    margin-right: 29px;
+    border-bottom: 1px solid #E9EBF0;
+}
 .user-info button{
     margin: 43.41px 0px 43.41px 64.83px;
     border: none;
     background: transparent;
+}
+
+/* horizontal-line  */
+
+.horizontal-line{
+    width: 79%;
+    height: 1px;
+    margin: auto;
+    margin-top: 34px;
+    background: #E9EAF0;
+
 }
 
 /* navbar */
@@ -175,14 +204,109 @@ button:hover{
 .projects-link svg{
     float: left;
 }
+/* dashboard-header */
+.dashboard-header{
+    grid-column: 2/4;
+    border: 1px solid red;
+    
+}
+.search-mic{
+    display: inline-block;
+    margin-left: 0px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding: 14px 0px;
+}
+.header-search{
+    /* width: 264px; */
+    height: 48px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0px 38px;
+    padding: 0px 15px;
+    background-color: #ffffff;
+    /* padding: 0px, 16px, 0px, 16px; */
+}
+.search-button{
+    float: left;
+    margin-top: 15px;
+}
+.goto-button{
+    float: right;
+    margin-top: 15px;
+}
+.header-search input{
+    border: none;
+    margin-left: 13.26px;
+    height: 100%;
+    outline: none;
+}
+.mic-button{
+    float: right;
+    margin-top: 15px;
+}
 
+.header-nav{
+    display: inline-block;
+    margin-left: 128px;
+    margin-right: 87px;
+}
+.header-nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.header-nav ul li{
+    margin-right: 32px;
+}
+.header-nav ul li a{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    color: #7A8699;
+}
+.active{
+    color: #323C4D !important;
+}
+.user-controls{
+    display: inline-block;
+}
+.user-controls button{
+    margin-right: 23px;
+}
+.notification-badge{
+    width: 20px;
+    height: 20px;
+    background-color: #EF4444;
+    border-radius: 12px;
+    padding: 2px 6px;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 16px;
+    position: absolute;
+    right: -45px;
+    top: -15px;
+    color: #FFFFFF;
+}
+.u-img-notification{
+    position: relative;
+}
+.u-image{
+    float: right;
+    margin-top: -13px;
+}
+.close-button{
+
+}
 /* middle container styles */
 .middle-content-bar{
     border: 1px solid rgb(102, 11, 11);
+    grid-row: 2/4;
+    
 }
 
 /* right-side-bar container styles */
 
 .right-side-bar{
-    border: 1px solid rgb(12, 8, 228)
+    border: 1px solid rgb(12, 8, 228);
+    grid-row: 2/4;
 }
