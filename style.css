@@ -56,11 +56,11 @@ button:hover{
 /* left bar styles */
 
 .left-side-bar{
- /* border: 1px solid black; */
+ 
  height: 100%;
  float: left;
  width: 302px;
- /* grid-row: 2/4; */
+ border-right: 1px solid #E9EBF0;;
  
 }
 
