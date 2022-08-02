@@ -767,17 +767,18 @@ button:hover{
     height: 90%;
 }
 
-.backlog-task-wrapper{
+.task-wrapper{
     display: inline-block;
     flex-grow: 1;
     flex-shrink: 1;
+    margin-left: 36px;
 }
-.backlog-task{
+.task{
     display: inline-block;
     margin: 0px 0px 34px 0px;
     width: 100%;
 }
-.backlog-task h2{
+.task h2{
     display: inline-block;
     margin-right: 12px;
     font-size: 14px;
@@ -785,7 +786,7 @@ button:hover{
     line-height: 20px;
     color: #1F2633;
 }
-.backlog-task span{
+.task span{
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -798,14 +799,12 @@ button:hover{
     padding: 4px;
     color: #CA8A04;
 }
-.backlog-task-wrapper{
-    margin-left: 36px;
-}
-.backlog-task button{
+
+.task button{
     margin-left: 110px;
     float: right;
 }
-.backlog-contents{
+.contents{
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 8px;
