@@ -874,9 +874,12 @@ button:hover{
     float: right;
     margin-top: 20px;
 }
-.bottom-user-images img:nth-child(2){
-    margin-left: -10px;
+.bottom-user-images a:nth-child(2){
+    margin-left: -10px; 
 }
+/* .bottom-user-images img:nth-child(2){
+    margin-left: -10px;
+} */
 .bottom-user-images button{
     float: right;
     margin-left: 30px;
