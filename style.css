@@ -27,6 +27,7 @@ body{
     font-size: 12px;
     line-height: 20px;
     color: #98A2B3;
+    padding-left: 10px;
 }
 a{
     text-decoration: none;
@@ -89,8 +90,9 @@ button:hover{
     background-color: transparent;
     border: none;
     outline: none;
-    width: 38%;
-    height: 100%;
+    /* width: 38%; */
+    /* height: 100%; */
+    margin: 40px;
 }
 
 
@@ -144,8 +146,12 @@ button:hover{
     
 }
 .search-button{
-    float: left;
-    margin-top: 15px;
+    background-image:url('./images/search.png');
+    background-repeat:no-repeat;
+   background-position:left;  
+   padding-left:15px;
+   margin-left: 10px;
+   border-radius: 8px;
 }
 .goto-button{
     float: right;
@@ -153,10 +159,10 @@ button:hover{
 }
 .header-search input{
     border: none;
-    margin-left: 13.26px;
+    /* margin-left: 13.26px; */
     height: 100%;
     outline: none;
-    width: 82%;
+    width: 90%;
 }
 .mic-button{
     float: right;
@@ -656,6 +662,7 @@ button:hover{
     height: 40px;
     border-radius: 8px;
     border: 1px solid #EBEEF2;
+    background: #ffffff;
 }
 .dashboard-search-box button{
     float: left;
@@ -709,8 +716,8 @@ button:hover{
     justify-content: space-between;
     
     height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
     
     align-items: center;
 }
@@ -771,6 +778,8 @@ button:hover{
 .users{
     padding: 90px 0;
     height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .task-wrapper{
