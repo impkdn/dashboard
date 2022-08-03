@@ -40,6 +40,7 @@ button{
 button:hover{
     cursor: pointer !important;
     background-color: #e6e7e9 !important;
+    /* border-radius: 8px; */
     
 }
 .float-right{
@@ -843,6 +844,10 @@ button:hover{
     border-radius: 8px;
     margin-bottom: 16px;
 }
+.addbtn-pd0{
+    padding: 0;
+    margin: 0;
+}
 .content-top h2{
     display: inline-block;
     font-size: 12px;
@@ -952,6 +957,10 @@ button:hover{
 }
 .addbtn button{
     width: 100%;
+    padding: 3px;
+}
+.addbtn button:hover{
+    border-radius: 8px;
 }
 .main-contents{
     display: flex;
