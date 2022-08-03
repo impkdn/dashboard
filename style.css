@@ -659,10 +659,11 @@ button:hover{
 }
 .dashboard-search-box button{
     float: left;
-    padding-top: 12px;
+    padding-top: 5px;
     padding-left: 15px;
     background: #ffffff;
     border-radius: 8px 0 0 8px;
+    height: 100%;
 }
 .dashboard-search-box input{
     height: 100%;
