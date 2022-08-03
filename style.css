@@ -500,22 +500,22 @@ button:hover{
     position: relative;
     width: 236px;
 }
-.task-board-user-info .user-1{
+.task-board-user-info a:nth-child(1){
     position: absolute;
     top: -27px;
     left: 0px;
 }
-.task-board-user-info .user-2{
+.task-board-user-info a:nth-child(2){
     position: absolute;
     top: -27px;
     left: 29px;
 }
-.task-board-user-info .user-3{
+.task-board-user-info a:nth-child(3){
     position: absolute;
     top: -27px;
     left: 56px;
 }
-.task-board-user-info .user-4{
+.task-board-user-info a:nth-child(4){
     position: absolute;
     top: -27px;
     left: 85px;
@@ -529,12 +529,17 @@ button:hover{
     font-weight: 800;
     font-size: 12px;
     line-height: 20px;
+    background-color: #F2F4F7;
+    color: #606C80;
+    border-radius: 50%;
+}
+.task-board-user-info a:nth-child(5){
+    
     position: absolute;
     top: -27px;
     left: 117px;
     border-radius: 50%;
-    background-color: #F2F4F7;
-    color: #606C80;
+    
 }
 
 .user-info-wrapper{
@@ -883,7 +888,7 @@ button:hover{
 .bottom-user-images button{
     float: right;
     margin-left: 30px;
-    margin-top: 2px;
+    /* margin-top: 2px; */
 }
 .button-conuter2 button{
     margin: 0px 8px;
