@@ -258,11 +258,7 @@ button:hover{
  
 }
 
-.user-info {
-    margin-left: 29px;
-    margin-right: 29px;
-    border-bottom: 1px solid #E9EBF0;
-}
+
 .user-info button{
     margin: 43.41px 0px 43.41px 64.83px;
     border: none;
@@ -287,6 +283,9 @@ button:hover{
     line-height: 20px;
     color: #1F2633;
 }
+.dashboard-content{
+    height: 100%;
+}
 
 .u-details .u-designation{
     font-weight: 700;
@@ -294,7 +293,15 @@ button:hover{
     line-height: 16px;
     color: #B8BFCC;
 }
+.left-navbar{
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
+}
 
 /* horizontal-line  */
 
@@ -317,7 +324,7 @@ button:hover{
 
 }
 .nav-wrapper{
-    height: 300px;
+    /* height: 300px; */
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -386,7 +393,7 @@ button:hover{
     flex-direction: column;
 }
 .project-wrapper{
-    height: 150px;
+    /* height: 150px; */
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -548,8 +555,12 @@ button:hover{
     
 }
 
-.user-info-wrapper{
+.user-info{
     display: inline-block;
+    height: 100px;
+    margin-left: 29px;
+    margin-right: 29px;
+    border-bottom: 1px solid #E9EBF0;
 }
 .task-board-user-info-add{
     position: absolute;
