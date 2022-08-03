@@ -723,8 +723,8 @@ button:hover{
     border-radius: 50%;
 }
 .user-notification-badge{
-    width: 20px;
-    height: 20px;
+    /* width: 20px; */
+    /* height: 20px; */
     background-color: #EF4444;
     border-radius: 12px;
     padding: 2px 6px;
