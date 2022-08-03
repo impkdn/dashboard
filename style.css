@@ -32,10 +32,15 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    cursor: pointer !important;
+    /* background-color: #e6e7e9 !important; */
+}
 button{
     border: none;
     outline: none;
     background: transparent; 
+    padding: 2px;
 }
 button:hover{
     cursor: pointer !important;
