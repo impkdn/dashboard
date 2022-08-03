@@ -38,7 +38,8 @@ button{
     background: transparent; 
 }
 button:hover{
-    cursor: pointer;
+    cursor: pointer !important;
+    background-color: #e6e7e9 !important;
     
 }
 .float-right{
@@ -332,7 +333,7 @@ button:hover{
 
 .title-upbtn h2{
     display: inline-block;
-    margin: 0px 130px 38px 0px;
+    margin: 0px 130px 20px 0px;
     font-weight: 700;
     font-size: 12px;
     line-height: 20px;
@@ -348,7 +349,7 @@ button:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 26px;
+    margin-top: 12px;
 }
 .counter{
     padding: 5px 9px 5px 9px;
@@ -403,7 +404,7 @@ button:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 26px;
+    margin-top: 20px;
 }
 .project-menu-items .projects-link span{
     margin-left: 19px;
@@ -585,7 +586,7 @@ button:hover{
     border-radius: 8px;
 }
 .board-view{
-    border-right: 1px solid #E9EBF0;
+    /* border-right: 1px solid #E9EBF0; */
 }
 .view button{
     padding: 11px;
@@ -597,6 +598,12 @@ button:hover{
 .view button svg {
     float: left;
     margin-right: 11px;
+}
+.view-button-active{
+    background-color: #FFFFFF;
+    border-left: 1px solid #EBEEF2;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .list-view svg{
     margin-top: 2px;
@@ -618,7 +625,7 @@ button:hover{
     margin-right: 12px;
     margin-top: -4px;
 }
-.vertical-line{
+.access-type{
     display: inline-block;
     margin-top: 13px;
 }
