@@ -230,6 +230,7 @@ button:hover{
     right: -5px;
     color: #FFFFFF;
     text-align: center;
+    top: 0px;
 }
 .u-img-notification{
     position: relative;
@@ -241,8 +242,8 @@ button:hover{
     height: 13px;
     background: red;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 3px;
+    right: -1px;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -318,11 +319,48 @@ button:hover{
     margin: auto;
     margin-top: 34px;
     background: #E9EAF0;
+    border: 1px solid #E9EAF0;
 
 }
-
+.user-image{
+    /* display: inline-block; */
+    float: left;
+}
+.semi-circle{
+    position: relative;
+}
+.blue-active-semi-circle{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #3B82F6;
+    margin: auto;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+    left: -36px;
+    top: -4px;
+}
 /* navbar */
-
+.u-image-left{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #3B82F6;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+    float: left;
+}
+.u-image-left span{
+    transform: rotate(-45deg);
+    display: inline-block;
+}
+.u-image-left .active-semi-circle{
+    transform: rotate(-45deg);
+    margin-top: 1px;
+    margin-left: 1px;
+    display: inline-block;
+}
 .navbar{
     margin-top: 38px;
     margin-left: 32px;
@@ -339,7 +377,7 @@ button:hover{
 
 .title-upbtn h2{
     display: inline-block;
-    margin: 0px 130px 20px 0px;
+    margin: 0px 120px 20px 0px;
     font-weight: 700;
     font-size: 12px;
     line-height: 20px;
@@ -349,6 +387,7 @@ button:hover{
  border: none;
  background: transparent;
  outline: none;
+ margin-left: 10px;
 }
 .nav-items{
     display: flex;
@@ -359,7 +398,7 @@ button:hover{
 }
 .counter{
     padding: 5px 9px 5px 9px;
-    margin-right: 38px;
+    margin-right: 25px;
     background-color: rgba(59, 130, 246, 0.1);
     border-radius: 16px;
     font-weight: 800;
@@ -725,7 +764,7 @@ button:hover{
 /* right-side-bar container styles */
 
 .right-side-bar{
-    border: 1px solid #E9EBF0;
+    border-left: 1px solid #E9EBF0;
     float: right;
     width: 88px;
     height: 100%;
@@ -755,7 +794,7 @@ button:hover{
     background: #04f116;
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: -7px;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -785,12 +824,12 @@ button:hover{
     border-radius: 50%;
 }
 .arrow{
-    height: 10%;
+    height: 88px;
     width: 88px;
     text-align: center;
     
     border-top: 1px solid rgb(233, 235, 240);
-    border-left: 1px solid rgb(233, 235, 240);
+    /* border-left: 1px solid rgb(233, 235, 240); */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -801,7 +840,7 @@ button:hover{
 }
 .users{
     padding: 90px 0;
-    height: 90%;
+    height: calc(100% - 88px);
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -979,18 +1018,18 @@ button:hover{
 }
 
 
-.blue-semi-ciecle-border-active{
+/* .blue-semi-ciecle-border-active{
     border: 2px solid rgb(45, 154, 243);
     border-radius: 50%;
     border-left-color: transparent;
     padding: 1px;
-}
-.blue-semi-ciecle-border-active img{
+} */
+/* .blue-semi-ciecle-border-active img{
     border-radius: 50%;
     height: 100%;
     width: 100%;
 
-}
+} */
 
 .in-process{
     background-color: rgba(168, 85, 247, 0.1);
