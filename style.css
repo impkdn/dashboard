@@ -892,7 +892,7 @@ button:hover{
     padding: 0;
     margin: 0;
 }
-.content-top h2{
+.content-header h2{
     display: inline-block;
     font-size: 12px;
     font-weight: 600;
@@ -914,10 +914,10 @@ button:hover{
     line-height: 16px;
     color: #17A5E6;
 }
-.content-middle{
+.content-tag{
     margin-top: 15px;
 }
-.content-middle span{
+.content-tag span{
     display: inline-block;
     
     height: 20px;
